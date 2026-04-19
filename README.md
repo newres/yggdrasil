@@ -1,21 +1,18 @@
 # Yggdrasil
 
-**TODO: Add description**
+Yggdrasil is a small project built with the Ash Framework in Elixir, created as a companion to a series of articles exploring domain modeling inspired by the World Tree from Norse mythology.
 
-## Installation
+## Articles
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `yggdrasil` to your list of dependencies in `mix.exs`:
+👉 Part 1 — Working with Ash (resource design & CRUD)  
+https://www.newresalhaider.com/post/yggdrasil/
 
-```elixir
-def deps do
-  [
-    {:yggdrasil, "~> 0.1.0"}
-  ]
-end
-```
+## About
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/yggdrasil>.
+This repository contains the accompanying code for the article series. It is intended for educational purposes and exploration.
 
+## Running the Project
+
+```bash
+mix deps.get
+mix test
